@@ -4,15 +4,415 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     
-    
+    	<header class="header">
+		<div class="container">
+			<div class="header-top">
+			<div class="header__box">
+				<a class="logo" href="#">
+					<img class="logo__images" src="images/logo.png" alt="">
+				</a>
+				<div class="language">
+					<button class="language__btn active">Ru</button> / <button class="language__btn">En</button>
+				</div>
+			</div>
+			<div class="menu__burger">
+				<span class="menu__burger-line"></span>
+			</div>
+			<nav class="menu">
+				<ul class="menu__list">
+					<li class="menu__item"><a class="menu__link" href="#">О нас</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Боты</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Технологии</a></li>
+					<li class="menu__item"><a class="menu__link" href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			</div>
+			<div class="header-content">
+				<h1 class="header__title">
+					Автоматизируйте <span>бизнес-процессы с помощью чат-ботов</span>
+				</h1>
+				<a class="button" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">Заказать бота</a>
+				<a href="#bottom" class="btn-bottom" data-target="anchor">
+					<span class="bth-circle"></span>
+				</a>
+			</div>
+		</div>
+    </header>
+
+    <section id="bottom" class="services">
+    	<div class="container">
+    		<div class="services__items">
+    			<div class="services__item">
+    				<h3 class="services__item-title">
+    					Кто мы?
+    				</h3>
+    				<div class="services__item-text">
+    					Команда IT-специалистов. Более пяти лет опыта разработки крупных информационных систем от мобильных приложений до порталов корпоративного уровня
+    				</div>
+    			</div>
+    			<div class="services__item">
+    				<h3 class="services__item-title">
+    					Что предлагаем?
+    				</h3>
+    				<div class="services__item-text">
+						Полную автоматизацию ваших бизнес-
+						процессов за счет использования чат-ботов. Представьте, что в вашем штате появился сотрудник, который работает без ошибок и никогда не устает    				</div>
+    			</div>
+    			<div class="services__item">
+    				<h3 class="services__item-title">
+    					Что используем?
+    				</h3>
+    				<div class="services__item-text">
+						Обширный стек самых современных технологий, творческий подход и нестандартное мышление. Наши руки всегда на пульсе самых перспективных IT- тенденций
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="development">
+    	<div class="container">
+    		<h2 class="title development__title">Разработка чат-ботов для мессенджеров</h2>
+    		<div class="development__box">
+    			<p class="development__text">
+    				Чат-боты представляют собой программы, с которыми пользователь может осуществлять имитацию живого общения. Использование ботов в мессенджерах -один из наиболее эффективных каналов коммуникации с пользователем. В чатах пользователю можно задавать вопросы, узнавать о нем больше и формулировать фактически персональные предложения.Таким образом вы сможете экономить время и деньги, привлекать целевых клиентов уникальным способом, запускать процесс рассылки рекламных материалов, полностью заменить службу поддержки и многое другое.
+    			</p>
+    			<div class="social__links-box">
+    				<a class="social__link social__link--adaptive" href="#"></a>
+    				<a class="social__link whatsapp" href="#"></a>
+    				<a class="social__link vkontakte" href="#"></a>
+    				<a class="social__link viber" href="#"></a>
+    				<a class="social__link telegram" href="#"></a>
+    			</div>
+    		</div>
+    		<a class="button development__button" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">Заказать бота</a>
+    	</div>
+    </section>
+
+    <section class="skills">
+    	<div class="container">
+    		<h2 class="title skills__title">Что умеют наши боты?</h2>
+    		<div class="skills__items">
+    			<div class="skills__item">
+    				<div class="skils__item-title icon-bar-chart">Опросы</div>
+    				<div class="skills__item-text">Сбор информации о целевой аудитории компании для разработки стратегии продвижения</div>
+    			</div>
+    			<div class="skills__item">
+    				<div class="skils__item-title icon-phone">Поддержка 24/7</div>
+    				<div class="skills__item-text">Обеспечат обратную связь с пользователями 24 часа в сутки в любых каналах</div>
+    			</div>
+    			<div class="skills__item">
+    				<div class="skils__item-title icon-envelope-o">Рассылка</div>
+    				<div class="skills__item-text">Организация и проведение рассылок новостей, акций, другой полезной информации</div>
+    			</div>
+    			<div class="skills__item">
+    				<div class="skils__item-title icon-shopping-bag">Продажи</div>
+    				<div class="skills__item-text">Продажи и продвижение пользователей «по воронке» в режиме диалога</div>
+    			</div>
+    			<div class="skills__item skills__item--adaptive">
+    				<div class="skils__item-title icon-money">Оплата</div>
+    				<div class="skills__item-text">Можно совершать финансовые операции, денежные переводы и проверять баланс</div>
+    			</div>
+    			<div class="skills__item skills__item--adaptive">
+    				<div class="skils__item-title icon-binoculars">Поиск</div>
+    				<div class="skills__item-text">Сделают удобным и быстрым поиск и загрузку информации, книг, фильмов и музыки</div>
+    			</div>
+    			<div class="skills__item skills__item--adaptive">
+    				<div class="skils__item-title icon-smile-o">Развлечения</div>
+    				<div class="skills__item-text">Заказ столиков в ресторанах, спортивные клубы, события, кинотеатры, подбор туров и билетов</div>
+    			</div>
+    			<div class="skills__item skills__item--adaptive">
+    				<div class="skils__item-title icon-lightbulb-o">Решение задач</div>
+    				<div class="skills__item-text">Оптимизируют выполнение стандартных повторяющихся бизнес - задач. Например, оформление счета</div>
+    			</div>
+    			<div class="skills__item skills__item--adaptive">
+    				<div class="skils__item-title icon-pencil-square-o">Обучение</div>
+    				<div class="skills__item-text">Персональный наставник в мобильном телефоне как для сотрудников компании, так и для личного пользования</div>
+    			</div>
+    		</div>
+    		<button class="still">Показать еще</button>
+    	</div>
+    </section>
+
+    <section class="integrations">
+    	<div class="container">
+    		<h2 class="title integrations__title">Возможности интеграции</h2>
+    		<div class="integrations__items">
+    			<div class="integrations__link-item">
+    				<div class="integrations__link integrations__link-dropbox"></div>
+    				<span>DropBox</span>
+    			</div>
+    			<div class="integrations__link-item">
+    				<div class="integrations__link integrations__link-googledrive"></div>
+    				<span>Google Диск</span>
+    			</div>
+    			<div class="integrations__link-item">
+    				<div class="integrations__link integrations__link-yandex"></div>
+    				<span>Яндекс диск</span>
+    			</div>
+    			<div class="integrations__link-item">
+    				<div class="integrations__link integrations__link-bitrix"></div>
+    				<span>Битрикс</span>
+    			</div>
+    			<div class="integrations__link-item">
+    				<div class="integrations__link integrations__link-atocrm"></div>
+    				<span>AmoCRM</span>
+    			</div>
+    			<div class="integrations__link-item">
+    				<div class="integrations__link integrations__link-pay"></div>
+    				<span>Любая платежная система</span>
+    			</div>
+    			<div class="integrations__link-item integrations__link-item--adaptive">
+    				<div class="integrations__link integrations__link-frame"></div>
+    				<span>Любая ваша система</span>
+    			</div>
+    			<div class="integrations__link-item">
+    				<div class="integrations__link integrations__link-group"></div>
+    				<span>Сайт</span>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="description">
+    	<div class="container">
+    		<div class="description-wrapper">
+    			<h2 class="title description__title">Каких ботов мы делаем?</h2>
+    			<div class="description__text">
+    				Мы не просто создаем чат-ботов, мы разрабатываем решения для бизнеса по вашей уникальной идее. Каждый проект отличается своим набором задач и трудоемкостью реализации. Поэтому стоимость внедрения чат-бота рассчитывается индивидуально и может составлять от <span>100 000 рублей.</span>
+    			</div>
+    			<div class="description__menu-inner">
+    				<ul class="description__menu">
+    					<li class="description__item">Четкие сроки разработки</li>
+    					<li class="description__item">Индивидуальный подход</li>
+    					<li class="description__item">Объективный расчет стоимости</li>
+    				</ul>
+    				<ul class="description__menu description__menu-right">
+    					<li class="description__item">Сотрудничество по договору</li>
+    					<li class="description__item">Только свежие IT- решения</li>
+    					<li class="description__item">Выполнение работы в срок</li>
+    				</ul>
+    			</div>
+    			<a class="button development__button" data-fancybox data-animation-duration="700" data-src="#animatedModal" href="javascript:;">Заказать бота</a>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="technologies">
+    	<div class="container">
+    		<h2 class="title technologies__title">Какие технологии мы используем?</h2>
+    		<div class="technologies__items">
+    			<div class="technologies__item">
+    				<img class="technologies__images" src="images/content/technologies__images-1.png" alt="">
+    				<div class="technologies__item-title">Telegram Bot API</div>
+    				<div class="technologies__item-text">Самая популярная платформа для чат-ботов</div>
+    			</div>
+    			<div class="technologies__item">
+    				<img class="technologies__images" src="images/content/technologies__images-2.png" alt="">
+    				<div class="technologies__item-title">PostgreSQL</div>
+    				<div class="technologies__item-text">Надежная технология для хранения данных</div>
+    			</div>
+    			<div class="technologies__item">
+					<img class="technologies__images" src="images/content/technologies__images-3.png" alt="">
+    				<div class="technologies__item-title">Linux</div>
+    				<div class="technologies__item-text">Лучшая операционная система для серверных решений</div>
+    			</div>
+    			<div class="technologies__item">
+    				<img class="technologies__images" src="images/content/technologies__images-4.png" alt="">
+    				<div class="technologies__item-title">VK bot API</div>
+    				<div class="technologies__item-text">Будьте на связи с пользователями самой большой соц-сети СНГ</div>
+    			</div>
+    			<div class="technologies__item">
+    				<img class="technologies__images" src="images/content/technologies__images-5.png" alt="">
+    				<div class="technologies__item-title">Java</div>
+    				<div class="technologies__item-text">Самый популярный язык программирования</div>
+    			</div>
+    			<div class="technologies__item">
+    				<img class="technologies__images" src="images/content/technologies__images-6.png" alt="">
+    				<div class="technologies__item-title">Redis</div>
+    				<div class="technologies__item-text">Кэширование запросов к внешним API Боты выдержат тысячи запросов в секунду</div>
+    			</div>
+    			<div class="technologies__item">
+    				<img class="technologies__images" src="images/content/technologies__images-7.png" alt="">
+    				<div class="technologies__item-title">Docker CI</div>
+    				<div class="technologies__item-text">Современные серверные решения. Дом вашего бота будет самым уютным</div>
+    			</div>
+    			<div class="technologies__item">
+    				<img class="technologies__images" src="images/content/technologies__images-8.png" alt="">
+    				<div class="technologies__item-title">Skype bot API</div>
+    				<div class="technologies__item-text">Для любителей ретро :)</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="examples">
+    	<div class="container">
+    		<h2 class="title examples__title">Примеры наших ботов</h2>
+    		<div class="examples__items">
+    			<div class="examples__item">
+    				<img class="examples__item-images" src="images/content/examples__images-1.png" alt="">
+    				<div class="examples__item-text">По слову "Кусочек" раздает уникальные промокоды</div>
+    				<button class="examples__item-button" type="button">Открыть в ВКонтакте</button>
+    			</div>
+    			<div class="examples__item">
+    				<img class="examples__item-images" src="images/content/examples__images-2.png" alt="">
+    				<div class="examples__item-text">Бот для создания смешных картинок (мемов)</div>
+    				<button class="examples__item-button" type="button">Открыть в телеграм</button>
+    			</div>
+    			<div class="examples__item">
+    				<img class="examples__item-images" src="images/content/examples__images-3.png" alt="">
+    				<div class="examples__item-text">Бот для настольной игры Менеджер 2020</div>
+    				<button class="examples__item-button" type="button">Открыть в телеграм</button>
+    			</div>
+    			<div class="examples__item">
+    				<img class="examples__item-images" src="images/content/examples__images-4.png" alt="">
+    				<div class="examples__item-text">Бот, подсказывающий текущие курсы криптовалют</div>
+    				<button class="examples__item-button" type="button">Открыть в телеграм</button>
+    			</div>
+    			<div class="examples__item">
+    				<img class="examples__item-images" src="images/content/examples__images-5.png" alt="">
+    				<div class="examples__item-text">Бот шифрует вашу ссылку в QR-код</div>
+    				<button class="examples__item-button" type="button">Открыть в телеграм</button>
+    			</div>
+    			<div class="examples__item">
+    				<img class="examples__item-images" src="images/content/examples__images-6.png" alt="">
+    				<div class="examples__item-text">Бот для заказа продукции компании «Балтийская целлюлоза»</div>
+    				<button class="examples__item-button" type="button">Открыть в телеграм</button>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="questions">
+    	<div class="container">
+    		<h2 class="title questions__title">Ответим на любые ваши вопросы</h2>
+    		<div class="text">Свяжитесь с нами по любому из каналов:</div>
+    		<div class="channels__items">
+    			<a href="#" class="channels__item">
+    				<img class="channels__item-images" src="images/content/channels__image-telegram.png" alt="">
+    				<div class="channels__item-box">
+    					<div class="channels__item-title">Telegram</div>
+    					<div class="channels__item-text">Написать в мессенджер</div>
+    				</div>
+    			</a>
+    			<a href="#" class="channels__item">
+    				<img class="channels__item-images" src="images/content/channels__image-viber.png" alt="">
+    				<div class="channels__item-box">
+    					<div class="channels__item-title">Viber</div>
+    					<div class="channels__item-text">Написать в мессенджер</div>
+    				</div>
+    			</a>
+    			<a href="#" class="channels__item">
+    				<img class="channels__item-images" src="images/content/channels__image-vk.png" alt="">
+    				<div class="channels__item-box">
+    					<div class="channels__item-title">VK</div>
+    					<div class="channels__item-text">Написать в мессенджер</div>
+    				</div>
+    			</a>
+    		</div>
+    		<div class="text">Или отправьте сообщение:</div>
+    		<form class="questions-form">
+    			<div class="questions-form-left">
+    				<label class="questions-form__label">Имя</label>
+    				<input class="questions-form__input" type="text">
+    				<label class="questions-form__label">E-mail</label>
+    				<input class="questions-form__input" type="text">
+    				<label class="questions-form__label">Телефон</label>
+    				<input class="questions-form__input" type="text">
+    				<div class="agreement">Отправляя заявку, вы соглашаетесь с <a class="agreement-link" href="#">политикой конфеденциальности</a></div>
+    			</div>
+    			<div class="questions-form-right">
+    				<label class="questions-form__label-promo">Есть промокод?</label>
+    				<input class="questions-form__input" type="text">
+    				<label class="questions-form__label">Коментарий</label>
+    				<textarea class="questions-form__textarea"></textarea>
+    				<button class="questions-form__button" type="submit">Отправить</button>
+    			</div>
+    		</form>
+    	</div>
+    </section>
+
+    <section class="company">
+    	<div class="container">
+    		<div class="title-box">
+    			<h2 class="title">Нам доверяют</h2>
+    			<a href="#" class="company__scroll"></a>
+    		</div>
+    		<div class="company__items">
+    			<div class="company__item">
+    				<img class="company__item-images" src="images/content/examples__images-1.png" alt="">
+    			</div>
+    			<div class="company__item">
+    				<img class="company__item-images" src="images/content/examples__images-3.png" alt="">
+    			</div>
+    			<div class="company__item">
+    				<img class="company__item-images" src="images/content/inbreff.png" alt="">
+    			</div>
+    			<div class="company__item">
+    				<img class="company__item-images" src="images/content/paritet.png" alt="">
+    			</div>
+    			<div class="company__item">
+    				<img class="company__item-images" src="images/content/aqua.png" alt="">
+    			</div>
+    			<div class="company__item">
+    				<img class="company__item-images" src="images/content/runlab.png" alt="">
+    			</div>
+    			<div class="company__item">
+    				<img class="company__item-images" src="images/content/itm.png" alt="">
+    			</div>
+    			<div class="company__item">
+    				<img class="company__item-images" src="images/content/examples__images-6.png" alt="">
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <footer class="footer">
+    	<div class="container">
+    		<div class="footer__inner">
+    			<div class="footer__title">ООО “Искусство автоматизации”</div>
+    			<div class="footer__menu-items">
+    				<ul class="footer__menu footer__menu-left">
+    					<li class="footer__menu-item icon-map-marker"><a class="footer__menu-link" href="#">Автозаводская улица, 23А, к2 Россия, Москва</a></li>
+    					<li class="footer__menu-item icon-phone"><a class="footer__menu-link" href="tel:88005504715">8 800 550 47 15</a></li>
+    					<li class="footer__menu-item icon-envelope"><a class="footer__menu-link" href="#">info@botcreators.ru</a></li>
+    				</ul>
+					<ul class="footer__menu footer__menu-right">
+    					<li class="footer__menu-item icon-vk"><a class="footer__menu-link" href="#">Группа VK</a></li>
+    					<li class="footer__menu-item icon-location-arrow"><a class="footer__menu-link" href="#">Телеграмм канал</a></li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    </footer>
+
+    <div id="animatedModal">
+    	<h2 class="popup__title">
+    		Заказ чат - бота
+    	</h2>
+    	<div class="popup__subtitle">
+    		Оставьте заявку на обратный звонок и наш менеджер свяжется с Вами в рабочее время.
+    	</div>
+    	<form class="popup__form">
+    		<div class="popup__form-content">
+    			<label class="popup__label">Имя</label>
+    			<input class="pupup__input popup__name" type="text">
+    			<label class="popup__label">Номер телефона</label>
+    			<input class="pupup__input" type="text">
+    		</div>
+    		<button class="popup__button button" type="submit">Отправить</button>
+    	</form>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
